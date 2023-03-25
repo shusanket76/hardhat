@@ -11,7 +11,7 @@ contract SimpleStorage {
     ContactAddres[] public contactAddressArray;
 
     function saveNumber(string memory _name, int256 number) public {
-        ContactAddres memory contact = ContactAddres("shusanket", 3155914913);
+        ContactAddres memory contact = ContactAddres("shusanket", 1234567);
         contactAddressArray.push(contact);
         findNumber[_name] = number;
     }
